@@ -1,13 +1,13 @@
 def create_an_empty_array
-  
+  array = []
 end
 
 def create_an_array
-  
+  array = ["element1", "element2", "element3", "element4"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array(array, element5)
+  p array.push (element5)
 end
 
 def add_element_to_start_of_array(array, element)
